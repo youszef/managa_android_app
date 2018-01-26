@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MangaApp</string>
+    <string name="search_title">Search Manga</string>
+    <string name="title_activity_manga_detail">MangaDetailActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_manga_page">MangaPageActivity</string>
+    <string name="toast_all_mangas_loaded">All mangas are loaded!</string>
+    <string name="manga_hits">HITS</string>
+    <string name="manga_intro">Intro</string>
+    <string name="manga_chapters">Chapters</string>
+    <string name="mangas_bookmarks">Bookmarks</string>
+    <string name="mangas_trending">Trending</string>
+
+
+</resources>

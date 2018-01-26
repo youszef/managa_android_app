@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MangaApp</string>
+    <string name="search_title">Zoek Manga</string>
+    <string name="title_activity_manga_detail">MangaDetailActivity</string>
+    <string name="action_settings">Instellingen</string>
+
+    <string name="title_activity_manga_page">MangaPageActivity</string>
+    <string name="toast_all_mangas_loaded">Alle mangas zijn opgeladen!</string>
+    <string name="manga_hits">Lezers</string>
+    <string name="manga_intro">Inhoud</string>
+    <string name="manga_chapters">Hoofdstukken</string>
+    <string name="mangas_bookmarks">Bladwijzers</string>
+    <string name="mangas_trending">Populair</string>
+
+
+</resources>

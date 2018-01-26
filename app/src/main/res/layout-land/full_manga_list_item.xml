@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/mangalist_image"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_image_manga" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/mangalist_image"
+        >
+
+        <TextView
+            android:id="@+id/manga_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textSize="22dp" />
+
+
+        <TextView
+            android:id="@+id/manga_amount_hits_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="5dp"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bookmark_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ic_bookmark_border_white_48dp"
+        android:tint="@color/colorAccent" />
+
+</RelativeLayout>

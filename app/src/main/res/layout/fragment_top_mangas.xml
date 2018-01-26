@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zoudev.android.mangaapp.fragments.TopMangasFragment">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <FrameLayout
+           android:id="@+id/selector_frame"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></FrameLayout>
+
+
+       <!--<android.support.v4.widget.SwipeRefreshLayout-->
+           <!--android:id="@+id/mangas_refresh_layout"-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+       <FrameLayout
+           android:id="@+id/fullmangas_list_frame"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"></FrameLayout>
+
+   </LinearLayout>
+
+</FrameLayout>
